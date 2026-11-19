@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+# geheime gegevens
+api/config.php
+.env
+
+# systeembestanden
+.DS_Store
+Thumbs.db
