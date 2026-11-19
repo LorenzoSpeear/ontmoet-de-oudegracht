@@ -36,10 +36,14 @@ export default function VideoSpeler({ videoRef, tijd, onTijd }) {
         />
         <button
           onClick={wissel}
-          className="absolute inset-0 m-auto h-24 w-24 rounded-full bg-white/80 text-4xl"
+          className="absolute inset-0 flex items-center justify-center"
           aria-label={speelt ? 'Pauzeer de film' : 'Speel de film af'}
         >
-          {speelt ? '❚❚' : '▶'}
+          {!speelt && (
+            <span className="flex h-24 w-24 items-center justify-center rounded-full bg-white/80 text-4xl">
+              ▶
+            </span>
+          )}
         </button>
       </div>
 
