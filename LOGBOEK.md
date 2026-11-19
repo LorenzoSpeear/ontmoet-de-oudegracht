@@ -22,6 +22,12 @@
 ### Wat heb ik gedaan?
 
 - Ik heb een visueel ontwerp gemaakt voor de website. Daarin staan de video en de interactieve kaart naast elkaar.
+- Mijn debriefing is verstuurd en mijn planning staat in GitHub Projects.
+
+### Wat ga ik hierna doen?
+
+- Ik werk het technisch ontwerp uit. Ik beschrijf hoe de kaart met de video meeloopt en hoe de video naar het juiste moment springt als een bezoeker een plek aantikt.
+- Ik beschrijf hoe medewerkers de informatie op de website kunnen aanpassen via het CMS.
 
 ## 19 november 2026
 
@@ -36,21 +42,8 @@
 
 ### Wat ga ik hierna doen?
 
-- Ik stuur mijn vragen naar Ellen Blom en mijn docent.
 - Ik zoek de echte starttijden, coördinaten en teksten voor de locaties.
 
 ### Waar loop ik tegenaan?
 
-- Ik weet nog niet of de film tot de Stadhuisbrug of tot de Bezembrug moet lopen.
-
-De app draait dan op http://127.0.0.1:5173.
-
-## Logboek
-
-Zie [LOGBOEK.md](LOGBOEK.md).
-- Mijn debriefing is verstuurd en mijn planning staat in GitHub Projects.
-
-### Wat ga ik hierna doen?
-
-- Ik werk het technisch ontwerp uit. Ik beschrijf hoe de kaart met de video meeloopt en hoe de video naar het juiste moment springt als een bezoeker een plek aantikt.
-- Ik beschrijf hoe medewerkers de informatie op de website kunnen aanpassen via het CMS.
+- In de briefing loopt de film tot de Bezembrug, maar mijn fragment eindigt bij de Stadhuisbrug. Ik kies voor de Stadhuisbrug, omdat de film daar eindigt.
