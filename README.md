@@ -29,9 +29,3 @@ React + Vite + Tailwind CSS (frontend), PHP 8 + MySQL (backend en CMS), Docker-X
 npm install
 npm run dev
 ```
-
-De app draait dan op http://127.0.0.1:5173.
-
-## Logboek
-
-Zie [LOGBOEK.md](LOGBOEK.md).
