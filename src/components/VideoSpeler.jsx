@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 
 function formatTijd(seconden) {
   const min = Math.floor(seconden / 60);
@@ -6,10 +6,8 @@ function formatTijd(seconden) {
   return `${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
 }
 
-export default function VideoSpeler() {
-  const videoRef = useRef(null);
+export default function VideoSpeler({ videoRef, tijd, onTijd }) {
   const [speelt, setSpeelt] = useState(false);
-  const [tijd, setTijd] = useState(0);
   const [duur, setDuur] = useState(0);
 
   function wissel() {
@@ -30,9 +28,10 @@ export default function VideoSpeler() {
         <video
           ref={videoRef}
           src="video/video.mp4"
-          className="max-h-[60vh] w-full bg-black object-contain" onPlay={() => setSpeelt(true)}
+          className="max-h-[60vh] w-full bg-black object-contain"
+          onPlay={() => setSpeelt(true)}
           onPause={() => setSpeelt(false)}
-          onTimeUpdate={(e) => setTijd(e.target.currentTime)}
+          onTimeUpdate={(e) => onTijd(e.target.currentTime)}
           onLoadedMetadata={(e) => setDuur(e.target.duration)}
         />
         <button
