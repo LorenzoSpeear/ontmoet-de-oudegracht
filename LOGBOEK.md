@@ -23,7 +23,7 @@
 
 - Ik heb een visueel ontwerp gemaakt voor de website. Daarin staan de video en de interactieve kaart naast elkaar.
 
-  ## 19 november 2026
+## 19 november 2026
 
 ### Wat heb ik gedaan?
 
