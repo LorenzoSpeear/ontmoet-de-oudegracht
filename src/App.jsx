@@ -1,6 +1,7 @@
 import VideoSpeler from './components/VideoSpeler.jsx';
 import Kaart from './components/Kaart.jsx';
 import locaties from './data/locaties.js';
+import InfoPaneel from './components/InfoPaneel.jsx';
 
 export default function App() {
   return (
@@ -13,10 +14,15 @@ export default function App() {
           <h2 className="mb-4 text-3xl font-bold flex justify-center">Boottocht door de Oudegracht</h2>
           <VideoSpeler />
         </section>
-        <section className="col-span-2 rounded-lg border-2 p-4">
-          <h2 className="text-3xl font-bold flex justify-center mb-4">Kaart van de Oudegracht</h2>
-          <Kaart locaties={locaties} />
-        </section>
+        <div className="col-span-2 flex flex-col gap-4">
+          <section className="rounded-lg border-2 p-4">
+            <h2 className="mb-4 flex justify-center text-3xl font-bold">Kaart van de Oudegracht</h2>
+            <Kaart locaties={locaties} />
+          </section>
+          <section className="rounded-lg border-2 p-4 h-full">
+            <InfoPaneel locatie={locaties[0]} />
+          </section>
+        </div>
       </main>
     </>
   );

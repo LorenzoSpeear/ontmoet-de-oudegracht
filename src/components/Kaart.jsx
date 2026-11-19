@@ -8,7 +8,7 @@ export default function Kaart({ locaties, actieveCode, onKies }) {
         <MapContainer
             center={route[3]}
             zoom={17}
-            className="h-[60vh] w-full rounded-lg"    >
+            className="h-[30vh] w-full rounded-lg">
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution="&copy; OpenStreetMap"
